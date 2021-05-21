@@ -4,3 +4,6 @@ node_modules
 # Hardhat
 cache
 artifacts
+
+# Secrets
+secrets.json
