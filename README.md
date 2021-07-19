@@ -24,8 +24,8 @@ npx hardhat node
 # deploy to local network
 npx hardhat --network localhost scripts/deploy.js
 
-# use console
-npx hardhat console --network
+# use console on local network
+npx hardhat console --network localhost
 ```
 
 ## Testing

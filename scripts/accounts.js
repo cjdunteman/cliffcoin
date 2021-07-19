@@ -5,11 +5,11 @@ async function main() {
   console.log(accounts);
 
   const address = "";
-  const Token = await ethers.getContractFactory("Token");
+  const Token = await ethers.getContractFactory("CliffCoin");
   const token = await Token.attach(address);
   value = await token.balanceOf(msg.sender);
 }
-  
+
 main()
   .then(() => process.exit(0))
   .catch(error => {
